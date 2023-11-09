@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Drop-Shadow design</title>
+    <style>
+        body{
+            display: flex;
+            background-color: wheat;
+            text-align: center;
+            margin: auto;
+
+        }
+        .shad{
+            margin: auto;
+            margin-top: 20%;
+            display: flex;
+        }
+        .out{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            color: #09fb8a;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        }
+
+        .in{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            color: #fb0909;
+            box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        }
+    </style>
+</head>
+<body>
+    <div class="shad">
+        <div class="out"><i class="fa-solid fa-square-phone" style="color: #09fb8a;"></i> Accept</div>
+        <div class="in"><i class="fa-solid fa-square-phone fa-rotate-180" style="color: #fb0909;"></i> Reject</div>
+    </div>
+</body>
+</html>
