@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: wheat;
+    text-align: center;
+}
+
+.forr{
+    z-index: 100;
+    position: relative;
+    margin-top: 100px;
+}
+
+form{
+    position: relative;
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin: 250px auto;
+    background-image: linear-gradient(wheat, white);
+    opacity: 80%;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.308), white, rgba(255, 255, 0, 0.274));
+    z-index: 100;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: radial-gradient(rgb(0, 255, 85), white);
+    box-shadow: 0px 2px 2px green;
+    border-radius: 50%;
+    z-index: 0;
+    top: 50%;
+    bottom: 50%;
+}
+
+.c-1{
+    top: 30%;
+    left: 30%;
+    background-image: radial-gradient(white, red);
+}
+.c-2{
+    top: 1%;
+    right: -10%;
+    z-index: -100;
+    background-image: linear-gradient(white, red);
+}
+.c-3{
+    top: 21%;
+    right: 16%;
+    background-image: radial-gradient(white, red);
+}
+/* .c-4{
+    top: 49%;
+    right: 16%;
+}
+.c-5{
+    top: 50%;
+    right: 50%;
+}
+.c-6{
+
+} */
+
+h3{
+    text-align: center;
+    margin-top: 5%;
+    position: relative;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    display: block;
+    margin: auto;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0.5px solid wheat;
+    background-color: rgba(255, 255, 255, 0.281);
+    text-align: center;
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+::placeholder{
+    color: black;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: whtie;
+}
+
+.link{
+    color: white;
+    margin-top: 500px;
+}
